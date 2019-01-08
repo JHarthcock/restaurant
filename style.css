@@ -1,0 +1,118 @@
+.topbar{
+    background-color: #de493c;
+    color: white;
+}
+.topbar ul{
+    list-style: none;
+    text-align: center;
+}
+.topbar li{
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.navigation{
+    background-color: #e85548;
+}
+.navigation h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.navigation select{
+    font-size: 30px;
+    width: 80%;
+    margin-left: 33px;
+}
+
+
+.searchbar{
+    background-color: #e0a455;
+}
+.searchbar input{
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+
+.pics{
+    background-color: #e0a455;
+}
+
+
+.searchbar i{
+    font-size: 25px;
+    color: #a6785d;
+}
+
+
+.pics h2{
+    color: #f0380a;
+}
+
+
+.orders i{
+    font-size: 35px;
+}
+.orders h6{
+    font-size: 20px;
+    color: #999e03;
+}
+.orders h2{
+    font-size: 40px;
+    color: #999e03;
+}
+.orders li{
+    color: #999e03;
+    list-style: none;
+}
+.orders a{
+    color: red;
+}
+
+
+.clientlogo{
+    background-color: #63635c;
+    color: gray;
+}
+.clientlogo{
+    font-size: 20px;
+}
+.aboutus{
+    background-color: #595852;
+    color: white;
+}
+.aboutus p{
+    color: gray;
+}
+.copyright{
+    background-color: #403f38;
+    color: white;
+}
+
+@media(min-width: 768px) {
+    .pics{
+        size: 50px;
+    }
+}
+@media(min-width: 992px) {
+    .navigation ul{
+        height: 290px;
+        font-size: 50px;
+        display: inline;
+        list-style: none;
+        color: black;
+    }
+}
+@media(min-width: 1200px) {
+    .navigation ul{
+        height: 290px;
+        font-size: 50px;
+        display: inline;
+        list-style: none;
+        color: black;
+    }
+}
